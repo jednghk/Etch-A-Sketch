@@ -9,7 +9,18 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class = 'grid-container'></div>
         <script src="etch-a-sketch.js" async defer></script>
+        <div>
+            <button onclick='changeDimensions("black")'>Black</button>
+            <button onclick='changeDimensions("grey")'>Grey Scale</button>
+            <button onclick='changeDimensions("rainbow")'>Rainbow</button>
+        </div>
+        <div style='margin:10px'>
+            <label>Grid dimensions:</label>
+            <input id = 'userInput' type='text' placeholder="Enter a number from 1-64">
+            <input id = 'submitButton' type='button' value="Submit" onclick = 'changeDimensions("black")'>
+        </div>
+        <button id='clearButton' style = 'margin-bottom:10px; width:100px;' onclick = 'changeDimensions()'>Clear</button>
+        <div class = 'grid-container'></div>
     </body>
 </html>
