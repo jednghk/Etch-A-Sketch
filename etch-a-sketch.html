@@ -10,6 +10,7 @@
     </head>
     <body>
         <script src="etch-a-sketch.js" async defer></script>
+        <h1>Etch-A-Sketch!</h1>
         <div>
             <button onclick='changeDimensions("black")'>Black</button>
             <button onclick='changeDimensions("grey")'>Grey Scale</button>
@@ -17,10 +18,10 @@
         </div>
         <div style='margin:10px'>
             <label>Grid dimensions:</label>
-            <input id = 'userInput' type='text' placeholder="Enter a number from 1-64">
-            <input id = 'submitButton' type='button' value="Submit" onclick = 'changeDimensions("black")'>
+            <input id = 'userInput' type='text' placeholder="Enter a width from 1-64">
+            <input id = 'submitButton' type='button' value="Submit" onclick = 'changeDimensions(defaultColor)'>
         </div>
-        <button id='clearButton' style = 'margin-bottom:10px; width:100px;' onclick = 'changeDimensions()'>Clear</button>
         <div class = 'grid-container'></div>
+        <button id='clearButton' onclick = 'changeDimensions(defaultColor)'>Clear</button>
     </body>
 </html>

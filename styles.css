@@ -5,6 +5,31 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    background-color: rgb(253, 249, 196);
+}
+
+h1 {
+    position: absolute;
+    top: 70px;
+    font-family: 'Brush Script MT', cursive;
+    color: #214151;
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+label {
+    font-family: Arial, 'Times New Roman', Times, serif;
+}
+
+button {
+    font-size: 15px;
+}
+
+#clearButton {
+    font-weight: bolder;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px
 }
 
 .grid-container {
