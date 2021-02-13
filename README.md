@@ -1,4 +1,6 @@
 # Etch-A-Sketch
+[Live Preview](https://jod-nhk.github.io/Etch-A-Sketch/etch-a-sketch.html)
+
 Hi guys, this project was done as part of The Odin Project curriculum, which aimed to improve on my skills in DOM manipulation.
 
 I felt this was a great project as it exposed me and forced me to apply many important DOM methods and attributes, such as 
