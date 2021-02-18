@@ -1,5 +1,5 @@
 # Etch-A-Sketch
-[Live Preview](https://jod-nhk.github.io/Etch-A-Sketch/etch-a-sketch.html)
+[Live Preview](https://jednghk.github.io/Etch-A-Sketch/etch-a-sketch.html)
 
 Hi guys, this project was done as part of The Odin Project curriculum, which aimed to improve on my skills in DOM manipulation.
 
